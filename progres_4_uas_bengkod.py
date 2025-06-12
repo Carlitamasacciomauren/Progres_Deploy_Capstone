@@ -25,7 +25,7 @@ import joblib
 from google.colab import files  # Hanya jika kamu pakai Google Colab
 
 
-!pip install imblearn
+#!pip install imblearn
 
 # Load data
 df = pd.read_csv("ObesityDataSet.csv")
