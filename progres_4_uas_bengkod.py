@@ -34,7 +34,8 @@ st.write(df.head())
 print("\nDataset info:")
 print(df.info())
 print("\nDescriptive statistics:")
-display(df.describe(include='all'))
+st.write(df.describe(include='all'))
+
 
 # Visualisasi distribusi target
 plt.figure(figsize=(10, 5))
