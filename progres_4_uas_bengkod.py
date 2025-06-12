@@ -21,10 +21,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 import joblib
-
-from google.colab import files  # Hanya jika kamu pakai Google Colab
-
-
 #!pip install imblearn
 
 # Load data
