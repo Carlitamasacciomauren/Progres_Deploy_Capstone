@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # 1. Exploratory Data Analysis (EDA)
-!pip install streamlit
+#!pip install streamlit
 
 import streamlit as st
 import joblib
@@ -34,7 +34,7 @@ pd.show_versions(as_json=False)
 
 # Tampilkan beberapa baris pertama dan informasi umum
 print("\nHead of dataset:")
-display(df.head())
+st.write(df.head())
 print("\nDataset info:")
 print(df.info())
 print("\nDescriptive statistics:")
